@@ -122,8 +122,8 @@ Outputs/
 
 ## Credits
 
-- Unreasonable demands by me, an illiterate code idiot who just needed a script.
-- All the hard work: ChatGPT 4o. 
+- All the hard work: ChatGPT 4o.
+- Unreasonable demands, testing, and fist shaking by me, an illiterate code idiot who just needed a script.
 
 ## Need help?
 
