@@ -1,2 +1,130 @@
 # ScrapeyDocs
- Scrape a docs site and spit out a combined txt and md file for your greedy LLM
+
+## The problem
+
+- You want an LLM to write code for you, because you're too busy, lazy, or code illiterate to do that yourself. Me too, friend.
+- But copy-pasting chunks (or entire pages) of documentation from your favorite open source project into an LLM's winking context hole isn't clever or fun. This bit depends on that bit, and before you know it, you are drowning in worthless error messages and apologies.
+
+## The solution
+
+- Run a script on your Windows, Mac, or Linux box
+- Feed it a URL of a documentation site
+- Sit back and enjoy a beverage
+- Get a single lightweight text or md file dropped in your lap
+- Feed that file to your large context window LLM or pop it in your RAGhole
+- Now your LLM knows all the things. Kind of.
+
+## What this is
+
+Take it away, ChatGPT:
+
+> A simple Python-based web scraper for downloading and compiling documentation from any website into Markdown and plain text formats. This tool is ideal for scraping documentation sites and consolidating the content into a single file with a Table of Contents, which you can then feed to a large context window LLM directly or via a more involved RAG setup.
+
+## Features
+
+This thing:
+
+- Scrapes multiple pages from a documentation site.
+- Automatically generates a combined Markdown file with a Table of Contents.
+- Outputs both a `.md` and a `.txt` file.
+- Uses a Python virtual environment to manage dependencies for easy setup on Windows, Linux, or MacOS.
+
+## Installation and Usage
+
+### Prerequisites
+
+- Python 3.6 or higher
+- `pip` package manager
+
+### Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/documentation-scraper
+   cd documentation-scraper
+
+2. **Run the setup script:**
+
+**Windows:** Double-click run_documentation-scraper.bat or run the following command in a command prompt:
+
+```batch
+run_documentation-scraper.bat
+```
+
+**Linux/Mac:** Make the shell script executable and run it
+
+```bash
+chmod +x run_documentation-scraper.sh
+./run_documentation-scraper.sh
+```
+
+The script will:
+
+- Set up a Python virtual environment.
+- Install all required dependencies.
+- Prompt you for a URL to scrape.
+- Scrape the site and generate output files in the Outputs directory.
+
+### Running the script manually
+
+1. Activate the virtual environment:
+
+Windows:
+
+```batch
+venv\Scripts\activate
+```
+
+Linux/MacOS:
+
+```bash
+source venv/bin/activate
+```
+
+2. Run the scraper script:
+
+```bash
+python documentation-scraper.py
+```
+
+3. Deactivate the virtual environment when done:
+
+Windows:
+
+```batch
+deactivate
+```
+
+Linux/MacOS:
+
+```bash
+deactivate
+```
+
+### Output
+
+The output files will be located in the Outputs directory, under a subdirectory named after the domain of the URL you scraped. The generated files will include:
+
+`<domain>_documentation.md`: The combined Markdown file with a Table of Contents.
+`<domain>_documentation.txt`: A plain text version of the documentation.
+
+#### Example
+
+For a website with the domain `example.com`, the output directory structure will look like this:
+
+```
+Outputs/
+└── example_com/
+    ├── example_com_documentation.md
+    └── example_com_documentation.txt
+```
+
+## Credits
+
+- Unreasonable demands by me, an illiterate code idiot who just needed a script.
+- All the hard work: ChatGPT 4o. 
+
+## Need help?
+
+ChatGPT is entirely to blame for anything that goes wrong and therefore best equipped to answer your troubleshooting questions.
