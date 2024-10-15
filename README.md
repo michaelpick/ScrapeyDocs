@@ -44,7 +44,7 @@ This thing:
    git clone https://github.com/yourusername/documentation-scraper
    cd documentation-scraper
 
-2. **Run the setup script:**
+2. **Install option 1: run the setup script:**
 
 **Windows:** Double-click run_documentation-scraper.bat or run the following command in a command prompt:
 
@@ -66,7 +66,35 @@ The script will:
 - Prompt you for a URL to scrape.
 - Scrape the site and generate output files in the Outputs directory.
 
+**Install option 2: Installing requiremnents manually**
+
+Don't want to run a batch or shell script? All good. Just install the requirements manually.
+
+1. Create and activate a virtual environment (optional but recommended):
+
+**On Windows**
+
+```batch
+python -m venv venv
+venv\Scripts\activate
+```
+
+**On Linux/Mac**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+2. Install dependencies using requirements.txt:
+
+```bash
+pip install -r requirements.txt
+```
+
 ### Running the script manually
+
+Want to run it manually, too? Have at it:
 
 1. Activate the virtual environment:
 
