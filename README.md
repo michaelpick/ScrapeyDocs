@@ -26,7 +26,7 @@ This thing:
 
 - Scrapes multiple pages from a documentation site.
 - Automatically generates a combined Markdown file with a Table of Contents.
-- Outputs both a `.md` and a `.txt` file.
+- Outputs both a `.md` and a `.txt` file. AT NO EXTRA COST!
 - Uses a Python virtual environment to manage dependencies for easy setup on Windows, Linux, or MacOS.
 
 ## Installation and usage
