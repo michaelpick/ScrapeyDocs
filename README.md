@@ -46,17 +46,17 @@ This thing:
 
 2. **Install option 1: run the setup script:**
 
-**Windows:** Double-click run_documentation-scraper.bat or run the following command in a command prompt:
-
-```batch
-run_documentation-scraper.bat
-```
-
 **Linux/Mac:** Make the shell script executable and run it
 
 ```bash
 chmod +x run_documentation-scraper.sh
 ./run_documentation-scraper.sh
+```
+
+**Windows:** Double-click run_documentation-scraper.bat or run the following command in a command prompt:
+
+```batch
+run_documentation-scraper.bat
 ```
 
 The script will:
