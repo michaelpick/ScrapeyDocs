@@ -29,7 +29,7 @@ This thing:
 - Outputs both a `.md` and a `.txt` file.
 - Uses a Python virtual environment to manage dependencies for easy setup on Windows, Linux, or MacOS.
 
-## Installation and Usage
+## Installation and usage
 
 ### Prerequisites
 
