@@ -41,7 +41,7 @@ This thing:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/documentation-scraper
+   git clone https://github.com/michaelpick/ScrapeyDocs
    cd documentation-scraper
 
 2. **Install option 1: run the setup script:**
@@ -72,18 +72,18 @@ Don't want to run a batch or shell script? All good. Just install the requiremen
 
 1. Create and activate a virtual environment (optional but recommended):
 
-**On Windows**
-
-```batch
-python -m venv venv
-venv\Scripts\activate
-```
-
 **On Linux/Mac**
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
+
+**On Windows**
+
+```batch
+python -m venv venv
+venv\Scripts\activate
 ```
 
 2. Install dependencies using requirements.txt:
@@ -98,16 +98,16 @@ Want to run it manually, too? Have at it:
 
 1. Activate the virtual environment:
 
-Windows:
-
-```batch
-venv\Scripts\activate
-```
-
 Linux/MacOS:
 
 ```bash
 source venv/bin/activate
+```
+
+Windows:
+
+```batch
+venv\Scripts\activate
 ```
 
 2. Run the scraper script:
@@ -118,15 +118,9 @@ python documentation-scraper.py
 
 3. Deactivate the virtual environment when done:
 
-Windows:
+Linux/MacOS/Windows:
 
 ```batch
-deactivate
-```
-
-Linux/MacOS:
-
-```bash
 deactivate
 ```
 
