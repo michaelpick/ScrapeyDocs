@@ -42,7 +42,7 @@ This thing:
 
    ```bash
    git clone https://github.com/michaelpick/ScrapeyDocs
-   cd documentation-scraper
+   cd /ScrapeyDocs
 
 2. **Install option 1: run the setup script:**
 
